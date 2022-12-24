@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disaster Tracking System</title>
+    <style>
+      .credit-container {
+        width: 100vw;
+        height: 25vh;
+        
+        
+        background-color:transparent;
+        position:fixed;
+      
+        left:0;
+        bottom:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .menubar{
+        width:50vw;
+       
+}  
+        @media only screen and (max-width: 768px) {
+          /* For mobile phones: */
+                .menubar{
+                  height:20vh;
+                  width:500vw;
+                  margin-left:275vw
+                  
+                }
+                .credit-container {
+                      width: 100vw;
+                      height: 20vh;
+                      
+                      
+                      background-color:black;
+                      position:fixed;
+                    
+                      left:0;
+                      bottom:0;
+                      display:flex;
+                      justify-content: center;
+                      align-items: center;
+      }
+          }
+      
+      .redpoint{
+        width:1em;
+        height:1em;
+        background-color:red;
+        border-radius: 2em;
+        border-style: solid;
+        border-color:white ;
+        margin:1em;
+      }
+      .greenpoint{
+        width:1em;
+        height:1em;
+        background-color:green;
+        border-radius: 2em;
+        border-width: white;
+        border-style: solid;
+        border-color:white ;
+        margin:1em;
+      }
+      .text{
+        color:white;
+        font-size: 0.7em;
+        margin:2em;
+      }</style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <div class="credit-container"> 
+      <img class="menubar" src="/bar.png" />
+  </div>
+  </body>
+</html>
+
