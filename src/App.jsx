@@ -427,7 +427,7 @@ function App() {
   const [Latitudefifty, setLatitudefifty] = useState(51.477928);
 
 
-
+// WEB DRİVER IP MUST BE ADDED
 
   const [LiveLatitude] = useState(32.498914);
   const [LiveLongitude] = useState(37.87154);

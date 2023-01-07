@@ -2,8 +2,11 @@
   "name": "disasterapp-v0.1",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ensarbatuhanayd.github.io/DisasterApp/",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -17,6 +20,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "gh-pages": "^4.0.0",
     "vite": "^2.9.15",
     "vite-plugin-cesium": "^1.2.22"
   }
